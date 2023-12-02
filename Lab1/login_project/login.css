@@ -79,3 +79,56 @@ html {
     cursor: pointer;
     outline: none;
   }
+
+
+/* 
+html:
+
+Ustawia wysokość elementu html na 100%.
+
+body:
+
+Ustawia wysokość elementu body na 100%.
+Resetuje marginesy (ustawia na 0).
+Określa stosowany font (Arial, Helvetica, sans-serif).
+Ustawia układ grid na elemencie body, co ułatwia centrowanie elementów wewnątrz niego.
+Ustala kolor tła na #3a3a3a (szary).
+
+#main-holder:
+
+Ustawia szerokość na 50% i wysokość na 70%.
+Ponownie używa układu grid dla centralnego umieszczenia zawartości.
+Ustala kolor tła na biały.
+Dodaje zaokrąglenie narożników (border-radius) na 7 pikseli.
+Dodaje cień zewnętrzny (box-shadow) dla efektu podniesienia.
+
+#login-error-msg-holder:
+
+Ustawia szerokość i wysokość na 100%.
+Ponownie używa układu grid do centralnego umieszczenia zawartości.
+
+#login-error-msg:
+
+Ustawia szerokość na 23%, tekst na środku, margines na 0, padding na 5 pikseli.
+Określa rozmiar czcionki na 12 pikseli, pogrubienie tekstu na bold.
+Ustawia kolor tekstu na #8a0000, obramowanie na 1 piksel w kolorze #8a0000.
+Ustawia kolor tła na #e58f8f.
+Ustawia początkową nieprzezroczystość (opacity) na 0.
+#error-msg-second-line:
+
+Ustawia właściwość display na block.
+
+#login-form:
+
+Ustawia align-self na flex-start (względem osi krzyżowej) dla formularza logowania.
+Ponownie używa układu grid do centralnego umieszczenia zawartości.
+.login-form-field::placeholder:
+
+Określa kolor tekstu dla atrybutu placeholder w polach formularza na #3a3a3a.
+.login-form-field:
+
+Ustawia stylowanie dla pól formularza, takie jak brak obramowania, dolne obramowanie o kolorze #3a3a3a, margines dolny, zaokrąglenie narożników, brak konturu, oraz niewielki padding.
+
+#login-form-submit:
+
+Ustawia szerokość na 100%, padding, brak obramowania, zaokrąglenie narożników, kolor tekstu na biały, pogrubienie tekstu na bold, kolor tła na #3a3a3a, kształt kursora na pointer oraz brak konturu. */

@@ -1,21 +1,36 @@
+<!-- Deklaracja doctype określająca standard HTML5 -->
 <!DOCTYPE html>
+
+<!-- Otwarcie tagu html z określeniem języka (angielski) -->
 <html lang="en">
 
 <head>
+  <!-- Ustawienie kodowania znaków na UTF-8 -->
   <meta charset="UTF-8">
+  <!-- Tytuł strony, wyświetlany w pasku przeglądarki -->
   <title>Login</title>
 </head>
 
 <body>
+  <!-- Główny kontener strony z identyfikatorem "main-holder" -->
   <main id="main-holder">
+
+    <!-- Nagłówek strony z identyfikatorem "login-header" -->
     <h1 id="login-header">Login</h1>
 
+    <!-- Formularz logowania z identyfikatorem "login-form" -->
     <form id="login-form">
+      <!-- Pole tekstowe do wprowadzania nazwy użytkownika -->
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      
+      <!-- Pole do wprowadzania hasła (typ "password" ukrywa wpisywane znaki) -->
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      
+      <!-- Przycisk służący do zatwierdzenia formularza -->
       <input type="submit" value="Login" id="login-form-submit">
     </form>
 
   </main>
 </body>
+
 </html>
